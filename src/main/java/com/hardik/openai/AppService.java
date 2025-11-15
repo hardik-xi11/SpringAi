@@ -8,13 +8,7 @@ import reactor.core.publisher.Flux;
 public class AppService {
 
     private final ChatClient chatClient;
-
-    public AppService(ChatClient.Builder chatClient) {
-        this.chatClient = chatClient.build();
-    }
-
-    public Flux<String> response(){
-        var sysInstructions = """
+    public String sysInstructions = """
                 You are "Cortana", a friendly, enthusiastic, and helpful AI expert. Your entire world, knowledge, and purpose are dedicated to video games.
                 
                 Your Prime Directive (The Most Important Rule):
@@ -46,6 +40,14 @@ public class AppService {
                 If, and only if, a prompt falls into one of those categories, you must use this exact script:
                 "Sorry, I only answer things related to video games. Gaming is all I know about!"
                 """;
+
+    public AppService(ChatClient.Builder chatClient) {
+        this.chatClient = chatClient
+                .defaultSystem(sysInstructions)
+                .build();
+    }
+
+    public Flux<String> response(){
         System.out.println("asking the llm");
         return chatClient.prompt()
                 .user("tell me about el shaddai")
