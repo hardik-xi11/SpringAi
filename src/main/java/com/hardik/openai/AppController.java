@@ -16,7 +16,8 @@ public class AppController {
     }
 
     @GetMapping("/chat")
-    public Flux<String> chat(){
-        return appService.response();
+    public Flux<String> chat(String message){
+
+        return appService.response(message);
     }
 }
