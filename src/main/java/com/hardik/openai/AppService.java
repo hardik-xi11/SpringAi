@@ -2,7 +2,6 @@ package com.hardik.openai;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestParam;
 import reactor.core.publisher.Flux;
 
 @Service
@@ -48,7 +47,7 @@ public class AppService {
                 .build();
     }
 
-    public Flux<String> response(@RequestParam("message") String message){
+    public Flux<String> response(String message){
         System.out.println("asking the llm");
         return chatClient.prompt()
                 .user(message)
