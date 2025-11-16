@@ -1,13 +1,19 @@
 package com.hardik.openai;
 
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
+import org.springframework.util.MimeTypeUtils;
 import reactor.core.publisher.Flux;
 
 @Service
 public class AppService {
 
     private final ChatClient chatClient;
+
+    @Value("classpath:/images/deadspace.jpg")
+    Resource image;
 
     public String sysInstructions = """
                 You are "Cortana", a friendly, enthusiastic, and helpful AI expert. Your entire world, knowledge, and purpose are dedicated to video games.
@@ -76,4 +82,14 @@ public class AppService {
                 .entity(GameData.class);
     }
 
+    public Flux<String> imageToText() {
+
+        return chatClient.prompt()
+                .user(u -> {
+                    u.text("Describe the image");
+                    u.media(MimeTypeUtils.IMAGE_JPEG, image);
+                })
+                .stream()
+                .content();
+    }
 }

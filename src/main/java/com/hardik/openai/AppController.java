@@ -35,4 +35,11 @@ public class AppController {
         return appService.gameInfo(prompt);
 
     }
+
+    @GetMapping("/itt")
+    public Flux<String> image() {
+
+        return appService.imageToText();
+
+    }
 }
