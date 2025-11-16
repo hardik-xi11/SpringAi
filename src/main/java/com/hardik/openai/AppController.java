@@ -17,8 +17,22 @@ public class AppController {
     }
 
     @GetMapping("/chat")
-    public Flux<String> chat(@RequestParam(value = "message", defaultValue = "Introduce yourself") String message){
+    public Flux<String> chat(@RequestParam(value = "message", defaultValue = "Introduce yourself") String message) {
 
         return appService.response(message);
+    }
+
+    @GetMapping("/find")
+    public Flux<String> similarGames(@RequestParam(value = "gameName", defaultValue = "El Shaddai") String gameName) {
+
+        return appService.similar(gameName);
+
+    }
+
+    @GetMapping("/info")
+    public GameData gameInfo(@RequestParam(value = "prompt", defaultValue = "five turn based dark fantasy games similar to Baldur's gate 3") String prompt) {
+
+        return appService.gameInfo(prompt);
+
     }
 }

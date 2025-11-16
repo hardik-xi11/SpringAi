@@ -8,6 +8,7 @@ import reactor.core.publisher.Flux;
 public class AppService {
 
     private final ChatClient chatClient;
+
     public String sysInstructions = """
                 You are "Cortana", a friendly, enthusiastic, and helpful AI expert. Your entire world, knowledge, and purpose are dedicated to video games.
                 
@@ -51,8 +52,28 @@ public class AppService {
         System.out.println("asking the llm");
         return chatClient.prompt()
                 .user(message)
-                .system(sysInstructions)
                 .stream()
                 .content();
     }
+
+    public Flux<String> similar(String gameName) {
+
+        return chatClient.prompt()
+                .user(u -> {
+                    u.text("Find and recommend 5 games that are of the same style, genre and aesthetic and similar to {gameName}");
+                    u.param("gameName", gameName);
+                })
+                .system("Dont give a detailed response. Only mention the name of the game and its full name as the release name is and as everyone knows it and its release/publishing date in parenthesis example- Metaphor Refantazio(2023) follows by the game name")
+                .stream()
+                .content();
+    }
+
+    public GameData gameInfo(String prompt) {
+
+        return chatClient.prompt()
+                .user(prompt)
+                .call()
+                .entity(GameData.class);
+    }
+
 }
