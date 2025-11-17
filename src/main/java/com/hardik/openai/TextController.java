@@ -8,38 +8,31 @@ import reactor.core.publisher.Flux;
 
 @RestController
 @RequestMapping
-public class AppController {
+public class TextController {
 
-    private final AppService appService;
+    private final TextService textService;
 
-    public AppController(AppService appService) {
-        this.appService = appService;
+    public TextController(TextService textService) {
+        this.textService = textService;
     }
 
     @GetMapping("/chat")
     public Flux<String> chat(@RequestParam(value = "message", defaultValue = "Introduce yourself") String message) {
 
-        return appService.response(message);
+        return textService.response(message);
     }
 
     @GetMapping("/find")
     public Flux<String> similarGames(@RequestParam(value = "gameName", defaultValue = "El Shaddai") String gameName) {
 
-        return appService.similar(gameName);
+        return textService.similar(gameName);
 
     }
 
     @GetMapping("/info")
     public GameData gameInfo(@RequestParam(value = "prompt", defaultValue = "five turn based dark fantasy games similar to Baldur's gate 3") String prompt) {
 
-        return appService.gameInfo(prompt);
-
-    }
-
-    @GetMapping("/itt")
-    public Flux<String> image() {
-
-        return appService.imageToText();
+        return textService.gameInfo(prompt);
 
     }
 }
