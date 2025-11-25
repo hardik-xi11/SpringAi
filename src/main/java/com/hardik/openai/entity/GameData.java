@@ -1,4 +1,4 @@
-package com.hardik.openai;
+package com.hardik.openai.entity;
 
 import java.util.List;
 

@@ -1,5 +1,6 @@
-package com.hardik.openai;
+package com.hardik.openai.text;
 
+import com.hardik.openai.entity.GameData;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
