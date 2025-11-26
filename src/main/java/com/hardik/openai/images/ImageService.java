@@ -25,14 +25,9 @@ public class ImageService {
     @Value("classpath:/images/metaphor.png")
     Resource image;
 
-    public ImageService(ChatClient.Builder chatClient,
-                        @Value("${sysInstructions}")
-                        String sysInstructions, ImageModel imageModel) {
+    public ImageService(ChatClient chatClient, ImageModel imageModel) {
         this.imageModel = imageModel;
-
-        this.chatClient = chatClient
-                .defaultSystem(sysInstructions)
-                .build();
+        this.chatClient = chatClient;
     }
 
     public Flux<String> imageToText() {

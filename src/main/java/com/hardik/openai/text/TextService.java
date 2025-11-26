@@ -2,7 +2,6 @@ package com.hardik.openai.text;
 
 import com.hardik.openai.entity.GameData;
 import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 
@@ -11,12 +10,8 @@ public class TextService {
 
     private final ChatClient chatClient;
 
-    public TextService(ChatClient.Builder chatClient,
-                       @Value("${sysInstructions}")
-                       String sysInstructions) {
-        this.chatClient = chatClient
-                .defaultSystem(sysInstructions)
-                .build();
+    public TextService(ChatClient chatClient) {
+        this.chatClient = chatClient;
     }
 
     public Flux<String> response(String message){
