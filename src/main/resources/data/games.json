@@ -1,0 +1,502 @@
+[
+  {
+    "title": "God of War",
+    "price": 1319,
+    "discount": 60
+  },
+  {
+    "title": "Marvel’s Spider-Man Remastered",
+    "price": 1599,
+    "discount": 60
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "price": 599,
+    "discount": 85
+  },
+  {
+    "title": "Warhammer 40,000: Space Marine 2",
+    "price": 1119,
+    "discount": 60
+  },
+  {
+    "title": "HELLDIVERS™ 2",
+    "price": 1999,
+    "discount": 20
+  },
+  {
+    "title": "DAVE THE DIVER",
+    "price": 484,
+    "discount": 45
+  },
+  {
+    "title": "Detroit: Become Human",
+    "price": 399,
+    "discount": 80
+  },
+  {
+    "title": "Risk of Rain 2",
+    "price": 237,
+    "discount": 67
+  },
+  {
+    "title": "Forza Horizon 5",
+    "price": 1749,
+    "discount": 50
+  },
+  {
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "price": 2309,
+    "discount": 30
+  },
+  {
+    "title": "Split Fiction",
+    "price": 1999,
+    "discount": 20
+  },
+  {
+    "title": "Persona 5 Royal",
+    "price": 1539,
+    "discount": 65
+  },
+  {
+    "title": "SILENT HILL 2",
+    "price": 1400,
+    "discount": 50
+  },
+  {
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "price": 2399,
+    "discount": 40
+  },
+  {
+    "title": "Stellar Blade™",
+    "price": 3839,
+    "discount": 20
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "price": 1249,
+    "discount": 75
+  },
+  {
+    "title": "Halo: The Master Chief Collection",
+    "price": 837,
+    "discount": 75
+  },
+  {
+    "title": "ASTRONEER",
+    "price": 449,
+    "discount": 70
+  },
+  {
+    "title": "Hearts of Iron IV",
+    "price": 809,
+    "discount": 70
+  },
+  {
+    "title": "Dying Light: The Beast",
+    "price": 2688,
+    "discount": 20
+  },
+  {
+    "title": "Call of Duty®: Black Ops III",
+    "price": 1781,
+    "discount": 67
+  },
+  {
+    "title": "The Last of Us™ Part I",
+    "price": 1999,
+    "discount": 50
+  },
+  {
+    "title": "The Elder Scrolls IV: Oblivion Remastered",
+    "price": 2788,
+    "discount": 33
+  },
+  {
+    "title": "Ready or Not",
+    "price": 1197,
+    "discount": 40
+  },
+  {
+    "title": "Battlefield™ 6",
+    "price": 3399,
+    "discount": 15
+  },
+  {
+    "title": "RimWorld",
+    "price": 1200,
+    "discount": 20
+  },
+  {
+    "title": "Oxygen Not Included",
+    "price": 170,
+    "discount": 70
+  },
+  {
+    "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+    "price": 2498,
+    "discount": 50
+  },
+  {
+    "title": "It Takes Two",
+    "price": 549,
+    "discount": 75
+  },
+  {
+    "title": "DARK SOULS™ III",
+    "price": 2149,
+    "discount": 50
+  },
+  {
+    "title": "Days Gone",
+    "price": 999,
+    "discount": 60
+  },
+  {
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "price": 449,
+    "discount": 75
+  },
+  {
+    "title": "DARK SOULS™: REMASTERED",
+    "price": 1199,
+    "discount": 50
+  },
+  {
+    "title": "Dead Space",
+    "price": 449,
+    "discount": 85
+  },
+  {
+    "title": "STAR WARS Jedi: Fallen Order™",
+    "price": 219,
+    "discount": 90
+  },
+  {
+    "title": "Age of Empires IV: Anniversary Edition",
+    "price": 454,
+    "discount": 65
+  },
+  {
+    "title": "Stellaris",
+    "price": 549,
+    "discount": 75
+  },
+  {
+    "title": "Warhammer: Vermintide 2",
+    "price": 65,
+    "discount": 95
+  },
+  {
+    "title": "The Elder Scrolls® Online",
+    "price": 399,
+    "discount": 75
+  },
+  {
+    "title": "Grand Theft Auto V Enhanced",
+    "price": 1249,
+    "discount": 50
+  },
+  {
+    "title": "Fallout 76",
+    "price": 624,
+    "discount": 75
+  },
+  {
+    "title": "ULTRAKILL",
+    "price": 749,
+    "discount": 25
+  },
+  {
+    "title": "Ori and the Will of the Wisps",
+    "price": 174,
+    "discount": 75
+  },
+  {
+    "title": "Age of Empires II: Definitive Edition",
+    "price": 489,
+    "discount": 65
+  },
+  {
+    "title": "Assetto Corsa",
+    "price": 220,
+    "discount": 75
+  },
+  {
+    "title": "Marvel’s Spider-Man: Miles Morales",
+    "price": 1319,
+    "discount": 60
+  },
+  {
+    "title": "DEATH STRANDING DIRECTOR'S CUT",
+    "price": 999,
+    "discount": 60
+  },
+  {
+    "title": "DOOM Eternal",
+    "price": 449,
+    "discount": 75
+  },
+  {
+    "title": "Red Dead Redemption",
+    "price": 1899,
+    "discount": 50
+  },
+  {
+    "title": "The Last of Us™ Part II Remastered",
+    "price": 2639,
+    "discount": 20
+  },
+  {
+    "title": "UNCHARTED™: Legacy of Thieves Collection",
+    "price": 1088,
+    "discount": 67
+  },
+  {
+    "title": "Sea of Thieves: 2025 Edition",
+    "price": 1749,
+    "discount": 50
+  },
+  {
+    "title": "Batman™: Arkham Knight",
+    "price": 202,
+    "discount": 85
+  },
+  {
+    "title": "Space Engineers",
+    "price": 440,
+    "discount": 50
+  },
+  {
+    "title": "Mount & Blade II: Bannerlord",
+    "price": 1249,
+    "discount": 50
+  },
+  {
+    "title": "Horizon Forbidden West™ Complete Edition",
+    "price": 2399,
+    "discount": 40
+  },
+  {
+    "title": "DOOM: The Dark Ages",
+    "price": 2999,
+    "discount": 50
+  },
+  {
+    "title": "God of War Ragnarök",
+    "price": 3199,
+    "discount": 20
+  },
+  {
+    "title": "Blue Prince",
+    "price": 858,
+    "discount": 34
+  },
+  {
+    "title": "Manor Lords",
+    "price": 974,
+    "discount": 35
+  },
+  {
+    "title": "DARK SOULS™ II: Scholar of the First Sin",
+    "price": 1199,
+    "discount": 50
+  },
+  {
+    "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+    "price": 2240,
+    "discount": 30
+  },
+  {
+    "title": "REMNANT II®",
+    "price": 870,
+    "discount": 70
+  },
+  {
+    "title": "Watch_Dogs® 2",
+    "price": 299,
+    "discount": 90
+  },
+  {
+    "title": "Fallout 4",
+    "price": 399,
+    "discount": 60
+  },
+  {
+    "title": "Squad",
+    "price": 842,
+    "discount": 60
+  },
+  {
+    "title": "Age of Wonders 4",
+    "price": 1349,
+    "discount": 50
+  },
+  {
+    "title": "SILENT HILL f",
+    "price": 2560,
+    "discount": 20
+  },
+  {
+    "title": "Marvel's Spider-Man 2",
+    "price": 3199,
+    "discount": 20
+  },
+  {
+    "title": "Starfield",
+    "price": 2999,
+    "discount": 40
+  },
+  {
+    "title": "Garry's Mod",
+    "price": 199,
+    "discount": 50
+  },
+  {
+    "title": "Stray",
+    "price": 749,
+    "discount": 40
+  },
+  {
+    "title": "Fallout: New Vegas",
+    "price": 224,
+    "discount": 50
+  },
+  {
+    "title": "The Planet Crafter",
+    "price": 550,
+    "discount": 50
+  },
+  {
+    "title": "Dying Light",
+    "price": 269,
+    "discount": 80
+  },
+  {
+    "title": "Kenshi",
+    "price": 279,
+    "discount": 60
+  },
+  {
+    "title": "Ratchet & Clank: Rift Apart",
+    "price": 1599,
+    "discount": 60
+  },
+  {
+    "title": "Indiana Jones and the Great Circle",
+    "price": 3499,
+    "discount": 30
+  },
+  {
+    "title": "Middle-earth™: Shadow of War™",
+    "price": 216,
+    "discount": 90
+  },
+  {
+    "title": "Mortal Kombat 11",
+    "price": 269,
+    "discount": 90
+  },
+  {
+    "title": "Horizon Zero Dawn™ Complete Edition",
+    "price": 1799,
+    "discount": 40
+  },
+  {
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "price": 1249,
+    "discount": 50
+  },
+  {
+    "title": "NieR:Automata™",
+    "price": 532,
+    "discount": 60
+  },
+  {
+    "title": "Mafia: Definitive Edition",
+    "price": 329,
+    "discount": 85
+  },
+  {
+    "title": "F1® 25",
+    "price": 1499,
+    "discount": 50
+  },
+  {
+    "title": "Far Cry® 4",
+    "price": 224,
+    "discount": 85
+  },
+  {
+    "title": "Hell Let Loose",
+    "price": 744,
+    "discount": 76
+  },
+  {
+    "title": "Riders Republic",
+    "price": 199,
+    "discount": 90
+  },
+  {
+    "title": "Borderlands 3",
+    "price": 299,
+    "discount": 90
+  },
+  {
+    "title": "No Rest for the Wicked",
+    "price": 1189,
+    "discount": 30
+  },
+  {
+    "title": "FINAL FANTASY XVINew historical low",
+    "price": 1749,
+    "discount": 50
+  },
+  {
+    "title": "SCUM",
+    "price": 1187,
+    "discount": 50
+  },
+  {
+    "title": "Warhammer 40,000: Darktide",
+    "price": 2001,
+    "discount": 51
+  },
+  {
+    "title": "STAR WARS Jedi: Survivor™",
+    "price": 524,
+    "discount": 85
+  },
+  {
+    "title": "Diablo® IV",
+    "price": 2080,
+    "discount": 50
+  },
+  {
+    "title": "Dragon's Dogma 2",
+    "price": 1748,
+    "discount": 58
+  },
+  {
+    "title": "Castle Crashers®",
+    "price": 137,
+    "discount": 70
+  },
+  {
+    "title": "Devil May Cry 5",
+    "price": 659,
+    "discount": 67
+  },
+  {
+    "title": "魔法少女ノ魔女裁判",
+    "price": 1040,
+    "discount": 20
+  },
+  {
+    "title": "DOOM",
+    "price": 319,
+    "discount": 80
+  }
+]

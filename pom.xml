@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hardik</groupId>
-    <artifactId>openAI</artifactId>
+    <artifactId>SpringAi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>openAI</name>
-    <description>openAI</description>
+    <name>SpringAi</name>
+    <description>SpringAi</description>
     <url/>
     <licenses>
         <license/>

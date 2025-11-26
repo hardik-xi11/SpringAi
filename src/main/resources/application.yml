@@ -1,6 +1,6 @@
 spring:
   application:
-    name: openAI
+    name: SpringAi
   ai:
     model:
       chat: google-genai
